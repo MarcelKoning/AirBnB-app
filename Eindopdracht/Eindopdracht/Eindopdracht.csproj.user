@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\AddHouse.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddLandlord.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddReservation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\HouseOverview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\LandlordOverview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ReservationOverview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UpdateHouse.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UpdateReservation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddHouse.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddLandlord.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddReservation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\HouseOverview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\LandlordOverview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ReservationOverview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UpdateHouse.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UpdateReservation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
